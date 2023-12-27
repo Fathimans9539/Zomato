@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin: 10px 250px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    
+
+}
+nav .logo{
+    height: 30px;
+
+}
+.search-icon{
+    height: 55px;
+    width: 100%;
+    max-width: 660px;
+    border: 1px solid rgb(160, 153, 153);
+    display: flex;
+    margin-left: 40px;
+    align-items: center;
+    border-radius: 10px;
+    
+    
+}
+.search-icon .input1{
+    width: 100px;
+    border: transparent;
+    font-size: 17px;
+}
+.fa-location-dot{
+    font-size: 22px;
+    color: red;
+}
+.search-icon .input2{
+    width: 250px;
+    font-size: 17px;
+    border: transparent;
+}
+.fa-location-dot,.input1,.input2,.fa-magnifying-glass,.fa-sort-down{
+    margin: 0px 10px;
+}
+ .login{
+    margin: 0px 10px 0px 40px;
+    width: 70px;
+    height: 55px;
+    border: transparent;
+    border-radius: 10px;
+    font-size:18px;
+}
+#signup{
+    width: 70px;
+    height: 55px;
+    border: transparent;
+    font-size: 18px;
+}
+.header{
+    height: 100px;
+    width: 100%;
+
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0px 40px;
+}
+ .header p{
+    padding: 0px 30px 0px 10px;
+    font-size: 25px;
+    
+
+}
+.scooter{
+    height: 50px;
+    width: 50px;
+}
+.plate{
+    height: 50px;
+    width: 50px;
+}
+.night{
+    height: 50px;
+    width: 50px; 
+}
+hr{
+border-color: rgb(135, 135, 135);
+opacity: 20%;
+}
+.header a{
+    display: flex;
+    color: black;
+    text-decoration: none;
+
+}
+.header p{
+    margin-top: 20px;
+}
+.header a :hover{
+    color: red;
+}
+.sun{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.header2{
+    display: flex;
+}
+.filters{
+    border: 1px solid rgb(160, 158, 158);
+    border-radius: 4px;
+    height: 40px;
+    width: 70px;
+    color:rgb(160, 158, 158) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 20px 10px 0;
+}
+.rating{
+    border: 1px solid rgb(160, 158, 158);
+    border-radius: 4px;
+    height:40px;
+    width: 100px;
+    color:rgb(160, 158, 158) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 20px 10px 0;
+}
+.veg{
+    border: 1px solid rgb(160, 158, 158);
+    border-radius: 4px;
+    height: 40px;
+    width: 75px;
+    color:rgb(160, 158, 158) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 20px 10px 0;
+}
+.cuisines{
+    border: 1px solid rgb(160, 158, 158);
+    border-radius: 4px;
+    height: 40px;
+    width: 90px;
+    color:rgb(160, 158, 158) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.caption1,.caption2,.caption3{
+    margin-top: 70px;
+    font-size: 30px;
+    font-weight: 350;
+}
+.inspiration{
+    display: flex;
+    margin-top: 30px;
+}
+.inspiration img{
+    height: 150px;
+    width: 150px;
+    margin-bottom: 10px;
+}
+.pizza img,.friedrice img{
+    border-radius: 80px;
+}
+.biriyani,.pizza,.burger,.chicken,.friedrice,.shawarma{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 30px 0 0;
+}
+.brands{
+    display: flex;
+    margin-top: 50px;
+}
+.brands img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+.kfc,.dominos,.chicking,.gokulam,.altaza,.burgerking{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 30px 0 0;
+}
+.delivery1,.delivery2,.delivery3{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.deliveryrestaurants img{
+       width: 300px;
+       height: 250px;
+       border-radius: 20px;
+}
+.delivery3{
+    margin-bottom: 50px;
+}
+/* ......................footer.................... */
+.footer{
+    margin-top: 40px;
+}
+.first{
+    display: flex;
+}
+.first .zomatoimg{
+    height: 30px;
+}
+.country,.language{
+    border: 1px solid rgb(78, 74, 74);
+    width: 130px;
+    height: 35px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.country img{
+    width: 20px;
+    height: 15px;
+}
+.country input,.language input{
+    width: 70px;
+    border: none;
+    margin-left: 10px;
+}
+.country{
+    margin-left: 600px;
+    margin-right: 10px;
+}
+.second,.third,.fourth,.fifth,.sixth{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+h4{
+    margin-bottom: 15px;
+}
+.second p,.third p,.fourth p,.fifth p{
+    margin-top:10px;
+    color: rgb(112, 110, 110);
+}
+.fourth2{
+    margin-top: 10px;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+.iconss{
+    display: flex;
+    flex-direction: column;
+}
+.iconss img{
+    width: 150px;
+    height: 40px;
+}
+.iconss img{
+    margin-bottom: 10px;
+}
+.image{
+    margin-top: 10px;
+}
